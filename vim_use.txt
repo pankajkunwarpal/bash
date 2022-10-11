@@ -1,0 +1,4 @@
+Subnet                  City
+15.44.0.0/16            Gurugram
+56.22.0.0/16		Delhi
+

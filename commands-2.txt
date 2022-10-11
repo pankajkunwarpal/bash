@@ -1,0 +1,50 @@
+# for date formating 
+# date +'%Y-%m-%d'
+# nospace between + and '
+
+# printf "%.3s" "dsfsdf"
+# this will print only three character
+# %s for string
+# %f for float 
+# %d for int
+
+# tr -s " " ":" | cut -f4 -d ":"
+# this command will replace space with colon
+# cut command will split the string with delemiter ":"
+# and return the 4th position string  after split
+
+# commad to find the file.
+# find -user username -name "Project[0-9][0-9].txt"
+# above command will serach file with name Project 
+# followed by a number again a number
+
+# command to move the serach file
+# find -user username -name "Project[0-9][0-9].txt" -exec mv {} / \;
+# -exec to execute the foloogind command
+# mv is move 
+# {} means current placeholder for search result
+# / is to root directory
+# \; to terminate the command
+
+# find -type f -size +500c -exec mv {} /UserFiles/Large \;
+# -size file greater then 500charc or byte
+
+# command to commpress a file
+# tar -cvf source_file_name
+# c for create 
+
+# tar -cvzf source_file_name
+# z for gzip compression method
+
+# tar -tvf file_name
+# t for see details in file
+
+# command to decompress a file
+# tar -zxvf filename
+# z for to specify file is compressed.
+# x for extraction
+# v is verbose
+# f file name
+
+
+

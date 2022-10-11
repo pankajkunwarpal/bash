@@ -1,0 +1,48 @@
+# cd /your/location/path/
+# this command change the current directory location to provided one.
+
+# pwd
+# return the current path/location.
+
+# ls
+# return list of files directory and files
+
+# ls -l 
+# return list of dir or path with permission sets.
+
+# chmod
+# command to change the file permission
+
+# echo ${#PATH}
+# return the word count in variable PATH
+
+# declare -r rovar='You cant change me'
+# declaring a variable with only read only premission/ constant variable
+
+# declare -i intvar
+# intvar = 45
+# declaring a -i int variable intvar only accept int 
+
+# echo ${falsevar-"this will return on empty"}
+# return the variable data if present or this "this will..."
+
+# echo ${var_name#*i}
+# var_name='This is a variable'
+# #*i will return what is after the i char in variable var_name
+
+# grep -i 'h' < cities.txt
+# grep to search, -i to insensitive, 'h' word to find, < input, cities.txt 
+# files name or text
+
+# prefix & to a command make it run in backgound
+# jobs - to see running jobs
+# kill PID or job number to termiate the job
+
+# disown -h %1
+# want to run a process in background after the terminal is exit.
+
+# echo $?
+# return status of last executed command
+# 0 for success
+
+
