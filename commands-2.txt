@@ -1,4 +1,4 @@
-# for date formating 
+ for date formating 
 # date +'%Y-%m-%d'
 # nospace between + and '
 
@@ -45,6 +45,14 @@
 # x for extraction
 # v is verbose
 # f file name
+
+# get the line number in vim editor
+# :set number
+# :set nu
+
+# dig and nslookup command followed by url
+# this will give Ip address of that url.
+
 
 
 
